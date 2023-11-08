@@ -5,6 +5,12 @@ import (
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )
 
+func CreateOrderItem() gin.HandlerFunc{
+	return func(c *gin.Context) {
+
+	}
+}
+
 func GetOrderItems() gin.HandlerFunc{
 	return func(c *gin.Context) {
 
